@@ -49,7 +49,7 @@ int main(void) {
   }
 
   i = 0;
-  ordena(&agenda[i], n);
+  sort(&agenda[i], n);
 
   fclose(arq);
 
